@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+deployments/
+
+# Gas reporter
+gas-report.txt
+
+# Miscellaneous
+.DS_Store
+.tmp/
+temp/
+.cache/
+
+# Hardhat deployment info
+deployments/
+
+# Local blockchain data
+.hardhat/
+
+# Test artifacts
+test-results/
+mochawesome-report/
+
+# Documentation generation
+docs/generated/
+
+# Contract verification
+verify/
+
+# Solidity coverage
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# OpenZeppelin
+.openzeppelin/
+
+# Chainlink
+chainlink-artifacts/
